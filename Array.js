@@ -7,3 +7,4 @@ for(let i of array){
 }
 
 console.log("The sum of arrray is :",sum);
+console.log(array.length);  
