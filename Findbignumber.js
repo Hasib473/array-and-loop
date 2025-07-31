@@ -1,8 +1,7 @@
-let array=[10,34,65,7,34];
-let result=[0];
+let array=[100,30,4,56,77,89];
+let result=array[0];
+
 for(let i of array){
-    if(i>result){
-        result=i;
-    }
+    result= i>result ? result=i: result;
 }
-console.log("The large number is :",result);
+console.log("The biggest number in array is :",result);
