@@ -3,11 +3,12 @@ let max=0;
 let secondMax=0;
 
 for(let i of arr){
-    if(i>max){
-        secondMax=max;
-        max=i;
+     (i>max) ?
+       ( secondMax=max,
+        max=i):
+        "Null";
     
     }
-}
+
 console.log(secondMax);
 console.log(max);
